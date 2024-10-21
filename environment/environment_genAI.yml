@@ -1,0 +1,30 @@
+name: genAi
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - psutil
+  - keyring
+  - unidecode
+  - ruamel.yaml
+  - libffi
+  - pyodbc
+  - pip:
+    - pandas
+    - numpy
+    - faiss-cpu
+    - openai
+    - sentence-transformers
+    - scikit-learn
+    - tiktoken
+    - tqdm
+    - azure-cosmos
+    - azure-search-documents
+    - streamlit
+    - openpyxl
+    - ipykernel
+
